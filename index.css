@@ -37,6 +37,16 @@ height: auto;
     width: 9vw;
     height: auto;;
 }
+@media(max-width: 650px){
+	.logo-img{
+    width: 40vw;
+height: auto;
+}
+.logo-img-right{
+    width: 24vw;
+    height: auto;;
+}
+}
 /* !  Parallax */
 .swiper-container {
     width: 100%;
@@ -74,7 +84,20 @@ height: auto;
     font-size: 18px;
     max-width: 400px;
     line-height: 1.3;
-  }
+	}
+	@media (max-width: 680px){
+		.swiper-slide {
+			padding: 50px 50px;
+		}
+		.swiper-slide .title{
+			font-size: 25px;
+		}
+		.swiper-slide .text {
+			font-size: 12px;
+			max-width: 400px;
+			line-height: 1.3;
+	}
+}
   /* ! footer */
 
   .footer-distributed{
