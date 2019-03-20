@@ -272,5 +272,7 @@ height: auto;
 	.footer-distributed .footer-center i{
 		margin-left: 0;
 	}
-
+	.container {
+		padding-left: 0px;
+	}
 }
